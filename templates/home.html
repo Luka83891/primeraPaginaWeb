@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome</h1>
+    <p class="lead">This is a simpl web page</p>
+    <hr class="my-4">
+    <p>you have car?</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{{ url_for ('about')}}" role="button">Learn more</a>
+    </p>
+</div>
+{% endblock %}
